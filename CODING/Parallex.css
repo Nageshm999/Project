@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.parent:first-of-type {
+  background: #ffffff
+    url("https://th.bing.com/th/id/OIP.4BIeKXMCpU588dr8POjMOAHaEK?w=274&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(2) {
+  background: #ffffff
+    url("https://th.bing.com/th/id/OIP.FIMUbKERYAK0k6UJuHOCQQHaEK?w=277&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.parent:nth-of-type(3) {
+  background: #ffffff
+    url("https://th.bing.com/th/id/OIP.BMkYt-jthKEs9wkvCezbYQHaE8?w=241&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.parent:last-of-type {
+  background: #ffffff
+    url("https://th.bing.com/th/id/OIP.tSiPSV9ZU_J-Nbz6-ktORQHaE8?w=274&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.parent {
+  width: 100%;
+  height: 150vh;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-family: tahoma;
+  text-align: center;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.parent p {
+  padding: 25px;
+}
